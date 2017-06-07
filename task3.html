@@ -5,33 +5,64 @@
     <title>魔镜</title>
     <style>
         .lblTitle {
+            margin: 0;
+            padding: 0;
+            border: 0;
             color: #ffffff;
-            font-size: x-large;
-            height:50px;
-            line-height: 50px;
+            font-size: 2em;
+            height:88px;
+            line-height: 88px;
+        }
+        .icoGame {
+            padding: 17% 25% 2% 25%;
+        }
+        .lblGame {
+            font-size: 2em;
+            color: white;
         }
     </style>
 </head>
 
 <body style="background-color: #4ca5ad">
-    <div style="float: left; height:23px; line-height: 23px;">
-        <img src="task3/images/statusbar-L.png"/>
+    <!--标题行-->
+    <div class="lblTitle" style="float: left" align="left">
+        &nbsp;&nbsp;<img align="center" src="task3/images/arrow.png"/>&nbsp;&nbsp;返回
     </div>
-    <div style="float: right; height:23px; line-height: 23px;">
-        <img src="task3/images/statusbar-R.png"/>
-    </div>
-    <div align="center" style="background-color: #32302b">
-        <img src="task3/images/statusbar-M.png"/>
-    </div>
-
-    <div style="float: left" align="left">
-        <img src="task3/images/arrow.png"/>
-    </div>
-    <div class="lblTitle" style="float: right">
+    <div class="lblTitle" style="float: right;font-size: 4em">
         ...&nbsp;&nbsp;
     </div>
-    <div class="lblTitle" align="center" style="text-align: center;align-content: inherit; background-color: #22292c">
+    <div class="lblTitle" style="width: 100%; text-align: center; background-color: #22292c">
         魔镜
+    </div>
+
+    <!--回退箭头-->
+    <div style="padding: 3% 0 0 5.5%">
+        <img src="task3/images/back.png" height="54" width="54"/>
+    </div>
+
+    <!--产品logo-->
+    <div align="center" style="padding: 10% 0 0 0">
+        <img src="task3/images/logo-grp.png" height="70" width="177"/>
+    </div>
+    <!--产品简介-->
+    <div align="center" style="color: #ffffff; padding: 15% 15% 0 15%; font-size: 2.5em">
+        葡萄藤轻游戏专注于桌游领域，提供在线杀人游戏、捉鬼、炸狼堡等多种聚会游戏，以下线下聚会桌游道具。
+    </div>
+
+    <!--游戏图标-->
+    <div  class="icoGame"  style="float: right">
+        <img src="task3/images/game-2.png"/>
+    </div>
+    <div class="icoGame">
+        <img src="task3/images/game-1.png"/>
+    </div>
+
+    <!--游戏名称-->
+    <div  class="lblGame"  style="float: right; padding: 1% 21% 35% 0;">
+        BJPTTENG
+    </div>
+    <div class="lblGame" style="padding: 1% 0 35% 22%;">
+        290560933
     </div>
 </body>
 </html>
