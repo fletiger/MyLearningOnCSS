@@ -30,12 +30,6 @@
     padding: 10% 10% 0 10%;
     font-size: 1rem;
 }
-/*设置简介样式*/
-.txtIntroduction {
-    color: #ffffff;
-    padding: 15% 15% 15% 15%;
-    font-size: 1rem;
-}
 /*设置游戏图标样式*/
 .icoGame div {
     display: inline-block;
