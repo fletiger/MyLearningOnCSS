@@ -1,0 +1,39 @@
+* {/*去除页面空白*/
+    margin:0;
+    padding:0;
+}
+/*设置标题底框样式*/
+.lnTitle{
+    background-color: #5fc0cd;
+    overflow: hidden;
+}
+.lnTitle div {
+    display: inline-block;
+    border: 0;
+    font-size: 1.7em;
+    color: #ffffff;
+    width: 29%;
+    padding: 1% 2% 1% 2%;
+}
+.lblTitleM {
+    text-align: center;
+}
+.lblTitleR {
+    text-align: right;
+}
+.divBlank {
+    background-color: #eff0f4;
+    overflow: hidden;
+    padding: 1.2% 0 0 0;
+}
+.lnUsername div {
+    display: inline-block;
+    margin: 3% 0 3% 0;
+    border: 0;
+    font-size: 1.7em;
+    padding: 0 2% 0 2%;
+    text-align: center;
+}
+[type=text] {
+    font-size: 1.5em;
+}
