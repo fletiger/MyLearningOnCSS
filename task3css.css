@@ -12,8 +12,7 @@
     border: 0;
     color: #ffffff;
     width: 32%;
-    height: 5%;
-    line-height: 5%;
+    padding: 1% 0 1% 0;
 }
 .lblTitleM {
     text-align: center;
@@ -22,24 +21,26 @@
     text-align: right;
 }
 .icoBack {
-    padding: 3% 0 12% 5.5%;
+    padding: 3% 0 0 5.5%;
 }
 /*设置logo图标的样式*/
-.icoLogo {
-    align-self: center;
-    width: 100%;
+.lnLogo div{
+    text-align:center;
+    color: #ffffff;
+    padding: 10% 10% 0 10%;
+    font-size: 1rem;
 }
 /*设置简介样式*/
 .txtIntroduction {
     color: #ffffff;
     padding: 15% 15% 15% 15%;
     font-size: 1rem;
-    align-self: center;
 }
 /*设置游戏图标样式*/
 .icoGame div {
     display: inline-block;
+    color: #ffffff;
     width: 48%;
     text-align: center;
-    padding: 0 0 15% 0;
+    padding: 15% 0 15% 0;
 }
