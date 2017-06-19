@@ -10,17 +10,15 @@ body {
     padding: 20px 0 0 35px;
 }
 /*设置logo图标的样式*/
-.ln-logo div{
-    color: #ffffff;
-    padding: 10% 10% 0 10%;
-    font-size: 1rem;
-}
 .ico-logo {
     text-align: center;
+    padding: 75px  0 0 0;
 }
 .txt-logo {
     text-align: left;
-    padding: 12% 9% 0 9% ;
+    color: #ffffff;
+    font-size: 0.8rem;
+    padding: 75px 9% 0 9% ;
 }
 /*设置游戏图标样式*/
 .ico-game div {
@@ -28,5 +26,5 @@ body {
     color: #ffffff;
     width: 48%;
     text-align: center;
-    padding: 18% 0 20% 0;
+    padding: 180px 0 208px 0;
 }
