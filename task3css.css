@@ -2,39 +2,31 @@
     margin:0;
     padding:0;
 }
-/*设置标题底框样式*/
-.lnTitle{
-    background-color: #22292c;
-    overflow: hidden;
+body {
+    background-color: #68cdd5
 }
-.lnTitle div {
-    display: inline-block;
-    border: 0;
-    color: #ffffff;
-    width: 32%;
-    padding: 1% 0 1% 0;
-}
-.lblTitleM {
-    text-align: center;
-}
-.lblTitleR {
-    text-align: right;
-}
-.icoBack {
-    padding: 3% 0 0 5.5%;
+
+.ico-back {
+    padding: 20px 0 0 35px;
 }
 /*设置logo图标的样式*/
-.lnLogo div{
-    text-align:center;
+.ln-logo div{
     color: #ffffff;
     padding: 10% 10% 0 10%;
     font-size: 1rem;
 }
+.ico-logo {
+    text-align: center;
+}
+.txt-logo {
+    text-align: left;
+    padding: 12% 9% 0 9% ;
+}
 /*设置游戏图标样式*/
-.icoGame div {
+.ico-game div {
     display: inline-block;
     color: #ffffff;
     width: 48%;
     text-align: center;
-    padding: 15% 0 15% 0;
+    padding: 18% 0 20% 0;
 }
