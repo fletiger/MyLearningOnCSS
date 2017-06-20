@@ -40,14 +40,14 @@
     border: 0;
     padding: 1% 0 1% 3%;
 }
-.frm-loggin input {
+.txt-user {
     width: 90%;
     font-size: 32px;
     border: hidden;
     outline:none
 }
 .ln-submit{
-    width:100%;
+    width: 100%;
     height: 100px;
     background-color: #5fc0cd;
     overflow: hidden;
