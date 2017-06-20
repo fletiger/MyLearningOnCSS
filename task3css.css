@@ -12,12 +12,12 @@ body {
 /*设置logo图标的样式*/
 .ico-logo {
     text-align: center;
-    padding: 75px  0 0 0;
+    padding: 65px  0 0 0;
 }
 .txt-logo {
     text-align: left;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 16px;
     padding: 75px 10% 0 10% ;
 }
 /*设置游戏图标样式*/
@@ -26,6 +26,6 @@ body {
     color: #ffffff;
     width: 48%;
     text-align: center;
-    font-size: 24px;
-    padding: 120px 0 120px 0;
+    font-size: 16px;
+    padding: 95px 0 100px 0;
 }
