@@ -6,20 +6,29 @@
     <link rel="stylesheet" href="task4css.css">
 </head>
 <body>
-    <!--标题行-->
-    <div class="ln-title">
-        <div>关闭</div>
-        <div class="lbl-titlem">登录</div>
-        <div class="lbl-titler">注册</div>
-    </div>
-    <div class="div-blank"></div>
-    <form>
+    <form class="frm-loggin">
+        <!--标题行-->
+        <div class="ln-title">
+            <div class="lbl-titlel">关闭</div>
+            <div class="lbl-titlem">登录</div>
+            <div class="lbl-titler">注册</div>
+        </div>
+        <div class="div-blank"></div>
+
         <div class="ln-username">
             <div><img src="images/iphone.png"/></div>
             <div><img src="images/cut.png"/></div>
             <div><input type="text" name="username" placeholder="请输入手机号" /></div>
         </div>
         <div class="div-blank"></div>
+        <div class="ln-username">
+            <div><img src="images/lock.png"/></div>
+            <div><img src="images/cut.png"/></div>
+            <div><input type="password" name="pwd" placeholder="请输入密码" /></div>
+        </div>
+        <div class="div-blank"></div>
+        <input class="ln-submit" type="submit" name="cmd-loggin" value="登&nbsp;&nbsp;录" />
     </form>
+
 </body>
 </html>

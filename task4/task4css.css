@@ -4,24 +4,33 @@
 }
 /*设置标题底框样式*/
 .ln-title{
+    height: 100px;
+    vertical-align: middle;
     background-color: #5fc0cd;
     overflow: hidden;
 }
 .ln-title div {
-    display: inline-block;
     border: 0;
     font-size: 36px;
     color: #ffffff;
     width: 29%;
-    padding: 1% 2% 1% 2%;
+    padding: 1.8% 2% 1.8% 2%;
+}
+.lbl-titlel {
+    float: left;
+    text-align: left;
 }
 .lbl-titlem {
+    float: left;
     text-align: center;
 }
 .lbl-titler {
+    float: right;
     text-align: right;
 }
 .div-blank {
+    width: 100%;
+    height: 14px;
     background-color: #eff0f4;
     overflow: hidden;
     padding: 1.2% 0 0 0;
@@ -31,9 +40,19 @@
     border: 0;
     padding: 1% 0 1% 3%;
 }
-[type=text] {
+.frm-loggin input {
     width: 90%;
     font-size: 32px;
     border: hidden;
     outline:none
+}
+.ln-submit{
+    width:100%;
+    height: 100px;
+    background-color: #5fc0cd;
+    overflow: hidden;
+    border: 0;
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
 }
