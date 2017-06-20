@@ -17,7 +17,7 @@ body {
 .txt-logo {
     text-align: left;
     color: #ffffff;
-    font-size: 0.8rem;
+    font-size: 24px;
     padding: 75px 10% 0 10% ;
 }
 /*设置游戏图标样式*/
@@ -26,5 +26,6 @@ body {
     color: #ffffff;
     width: 48%;
     text-align: center;
+    font-size: 24px;
     padding: 120px 0 120px 0;
 }
