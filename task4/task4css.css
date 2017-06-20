@@ -3,37 +3,37 @@
     padding:0;
 }
 /*设置标题底框样式*/
-.lnTitle{
+.ln-title{
     background-color: #5fc0cd;
     overflow: hidden;
 }
-.lnTitle div {
+.ln-title div {
     display: inline-block;
     border: 0;
-    font-size: 1.7em;
+    font-size: 36px;
     color: #ffffff;
     width: 29%;
     padding: 1% 2% 1% 2%;
 }
-.lblTitleM {
+.lbl-titlem {
     text-align: center;
 }
-.lblTitleR {
+.lbl-titler {
     text-align: right;
 }
-.divBlank {
+.div-blank {
     background-color: #eff0f4;
     overflow: hidden;
     padding: 1.2% 0 0 0;
 }
-.lnUsername div {
+.ln-username div {
     display: inline-block;
-    margin: 3% 0 3% 0;
     border: 0;
-    font-size: 1.7em;
-    padding: 0 2% 0 2%;
-    text-align: center;
+    padding: 1% 0 1% 3%;
 }
 [type=text] {
-    font-size: 1.5em;
+    width: 90%;
+    font-size: 32px;
+    border: hidden;
+    outline:none
 }
