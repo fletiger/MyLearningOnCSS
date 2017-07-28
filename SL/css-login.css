@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding:0;
+}
+html {
+    height: 100%;
+}
+body {
+    font-size: 625%;
+    height: 100%;
+}
+
+.back-img {
+    padding: 10% 16% 10% 16%;
+    background: url("IMG/login.png") no-repeat;
+    /*background-size: cover;*/
+}
+/*.back-img div{*/
+    /*width: 50%;*/
+    /*padding: 10% 0 10% 0;*/
+    /*background-color: #ffffff;*/
+    /*opacity: 0.47;*/
+/*}*/
