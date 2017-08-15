@@ -1,0 +1,29 @@
+html {
+    border:5px dashed green;
+    padding: 20px;
+    margin: 10px;
+}
+body{
+    border:8px dashed  purple;
+    padding: 20px;
+}
+.first {
+    width: 200px;
+    height: 100px;
+    background-color: #5bb7c3;
+    margin: 30px;
+    border: 5px solid red;
+    position: relative;
+    top: 10px;
+    left: 20px;
+} /*add position*/
+#second {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: chocolate;
+    border: 1px solid blue;
+    position: absolute;
+    /*top: 0px;*/
+    /*left: 0px;*/
+}
