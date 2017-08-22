@@ -1,0 +1,76 @@
+* {
+    margin:0;
+    padding: 0;
+    /*设置界面中文字的字体和大小*/
+    font-family:"微软雅黑";
+    font-size: 16px;
+    color: #ffffff;
+}
+header {
+    background-color: #5fc0cd;
+    height: 36px;/* 与line-height配合设置header的文字为垂直居中 */
+    line-height: 36px;
+    width: 100%;
+    position: fixed;/* 与top、left配合设置header为固定位置*/
+    top:0;
+    left:0;
+}
+/*设置超链接的样式：左右边距、文字颜色、去除下划线*/
+header a {
+    padding: 0 8px;/* 设置文字与窗口左边间距 */
+
+    text-decoration: none;
+}
+/*设置“注册”为左浮动*/
+.head-l {
+    float: left;
+}
+/*设置“关闭”为右浮动*/
+.head-r {
+    float: right;
+}
+/*设置“登录”的颜色和居中*/
+header h1 {
+    text-align: center;
+}
+/*设置整个窗体的背景色为灰色*/
+body {
+    background-color: #eff0f4;
+}
+/*设置主窗体的位置，否则顶部将被header盖住*/
+main {
+    position: relative;
+    top: 36px;
+}
+/*设置两个输入框所在行的样式*/
+.input-ln {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    margin: 16px 0;
+}
+/*设置输入框前面的图片为左浮动*/
+.img-number {
+    float: left;
+}
+/*设置输入框的样式*/
+.number {
+    border: hidden;
+    outline:none;
+    height: 100px;
+    margin: 0 18px;
+    color: #000000;
+}
+/*设置最后一行的样式*/
+.btn-login {
+    width: 100%;
+    height: 100px;
+    height: 48px;
+    line-height: 48px;
+    background: #5fc0cd;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
